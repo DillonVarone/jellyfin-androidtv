@@ -17,7 +17,7 @@ android {
 		targetSdk = 33
 
 		// Release version
-		applicationId = namespace
+		applicationId = "dvarone.jellyfin.androidtv"
 		versionName = project.getVersionName()
 		versionCode = getVersionCode(versionName!!)
 		setProperty("archivesBaseName", "jellyfin-androidtv-v$versionName")
